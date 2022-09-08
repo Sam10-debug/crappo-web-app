@@ -6,7 +6,7 @@ import Numbers from "./components/Numbers";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-full">
       <Header />
       <Numbers />
       <CryptoSection />

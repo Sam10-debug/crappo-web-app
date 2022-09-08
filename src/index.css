@@ -49,6 +49,7 @@ ul{
 }
 .trade-heading{
 	color: #0D0D2B;
+	overflow-wrap: break-word;
 }
 .features{
  background: #2B076E;
@@ -107,3 +108,5 @@ input{
 .green{
 	color: #42FFFF;
 }
+
+
