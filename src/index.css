@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+	background-color: #0D0D2B;
+}
+ul{
+	color: #ffffff;
+}
+.sign-in{
+	color: #ffffff;
+}
+.sign-in button:hover{
+	background-color: #3671E9;
+	border-radius: 32px;
+}
+.save{
+	border-radius: 2rem;
+	background-color: #ffffff;
+	color: #0D0D2B;
+	font-weight: 500;
+	font-size: 1rem;
+}
+.info{
+ background: rgba(255, 255, 255, 0.1);;
+}
+.illustration > .value > p{
+	color:  #E0E0E0;
+}
+.try{
+	background-color: #3671E9;
+}
+.experience{
+	color: #E0E0E0;
+}
+.check{
+	color: #E0E0E0;
+}
+.check-section{
+	background: #0D0D2B;
+
+}
+.doll,.estimated{
+	color: #3671E9;
+}
+.mining{
+	background-color: #3671E9;
+}
+.trade-heading{
+	color: #0D0D2B;
+}
+.features{
+ background: #2B076E;
+	
+}
+.features>div>div:first-of-type,.btc,.volume{
+	color: #E0E0E0;
+}
+.small{
+	color: #42FFFF;;
+}
+.chart{
+	background-color: #35068C;
+}
+.sell{
+	color: #F2F2F2;
+}
+.increase{
+	background-color: #491F98;
+}
+.trends{
+	background-color: #35068C;
+}
+.buy{
+	 background: #FF325F;
+}
+.sell{
+	background-color: #6EDCB5;
+}
+.last{
+	color: #42FFFF;
+}
+.green{
+	color: #8FFFBE;
+}
+.red{
+	color: #FF7676;
+}
+.eth{
+	background-color: #6374C3;
+}
+input{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.footer{
+	background-color: #0D0D2B;
+}
+.mill{
+	color: #3671E9;
+}
+.eth svg{
+	fill: #ffffff;
+}
+.green{
+	color: #42FFFF;
+}
