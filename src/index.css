@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+	
+}
+
 .header{
 	background-color: #0D0D2B;
 }

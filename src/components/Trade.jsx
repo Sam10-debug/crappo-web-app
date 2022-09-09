@@ -43,29 +43,29 @@ const Trade = () => {
 					<img src={bitcoin} alt="bitcoin-image" className="w-[80px] h-[80px]" />
 					<div className="flex items-center gap-2">
 					<h3 className="text-[32px] font-bold text-white">Bitcoin</h3>
-					<span className="volume">BTC</span>
+					<span className="volume ml-2 text-[14px]">BTC</span>
 					</div>
 					<p className="volume">Digital currency in which a record of transactions is maintained.</p>
 					
-					<div onMouseEnter={hideText} onMouseLeave={ShowText} className="font-semibold  mx-auto py-2 px-2  md:py-0 h-[48px] w-[50%] md:w-[90%] try flex  md:h-[64px] justify-center items-center rounded-[32px] gap-6 mt-4  text-white">{showFirstText&&<p>Start mining</p>} <img src={arrowRight} alt="right-arrow icon " className='' /></div>
+					<div onMouseEnter={hideText} onMouseLeave={ShowText} className="font-semibold  mx-auto py-2 px-4  md:py-0 h-[48px]  md:w-[90%] try flex  md:h-[64px] justify-center items-center rounded-[32px] gap-6 mt-4  text-white">{showFirstText&&<p className='mr-2'>Start mining</p>} <img src={arrowRight} alt="right-arrow icon " className='' /></div>
 				</div>
-				<div className="flex flex-col justify-center items-center md:w-[30%] h-[433px] my-4 md:my-0 md:mx-16 text-center bg-blue-500 rounded-xl px-2">
+				<div className="flex flex-col justify-center items-center md:w-[30%] h-[433px] my-4 md:my-0 md:mx-16 text-center bg-blue-500 rounded-xl">
 					<img src={ethereum} alt="ethereum-image" className="w-[80px] h-[80px]" />
 					<div className="flex items-center gap-2">
 					<h3 className="text-[32px] font-bold text-white">Ethereum</h3>
-					<span className="volume">ETH</span>
+					<span className="volume ml-2 text-[14px]">ETH</span>
 					</div>
 					<p className="volume">Blockchain technology to create and run decentralized digital applications.</p>
-					<div onMouseEnter={hideSecondText} onMouseLeave={ShowSecondText} className="font-semibold  mx-auto py-2 px-2  md:py-0 h-[48px] w-[50%] md:w-[90%] try flex  md:h-[64px] justify-center items-center rounded-[32px] gap-6 mt-4  text-white">{showSecondText&&<p>Start mining</p>} <img src={arrowRight} alt="right-arrow icon " className='' /></div>
+					<div onMouseEnter={hideSecondText} onMouseLeave={ShowSecondText} className="font-semibold  mx-auto py-2 px-4  md:py-0 h-[48px]  md:w-[90%] try flex  md:h-[64px] justify-center items-center rounded-[32px] gap-6 mt-4  text-white">{showSecondText&&<p className='mr-2'>Start mining</p>} <img src={arrowRight} alt="right-arrow icon " className='' /></div>
 				</div>
 				<div className="flex flex-col justify-center items-center md:w-[30%] h-[433px] text-center bg-blue-500 rounded-xl px-2">
 					<img src={litecoin} alt="litecoin-image" className="w-[80px] h-[80px]" />
 					<div className="flex items-center gap-2">
 					<h3 className="text-[32px] font-bold text-white">Litecoin</h3>
-					<span className="volume">LTC</span>
+					<span className="volume ml-2 text-[14px]">LTC</span>
 					</div>
 					<p className="volume">Cryptocurrency that enables instant payments to anyone in the world.</p>
-			<div onMouseEnter={hideThirdText} onMouseLeave={ShowThirdText} className="font-semibold  mx-auto py-2 px-2  md:py-0 h-[48px] w-[50%] md:w-[90%] try flex  md:h-[64px] justify-center items-center rounded-[32px] gap-6 mt-4  text-white">{showThirdText&&<p>Start mining</p>} <img src={arrowRight} alt="right-arrow icon " className='' /></div>
+			<div onMouseEnter={hideThirdText} onMouseLeave={ShowThirdText} className="font-semibold  mx-auto py-2 px-4  md:py-0 h-[48px]  md:w-[90%] try flex  md:h-[64px] justify-center items-center rounded-[32px] gap-6 mt-4  text-white">{showThirdText&&<p className='mr-2'>Start mining</p>} <img src={arrowRight} alt="right-arrow icon " className='' /></div>
 				</div>
 			</div>
 		</section>

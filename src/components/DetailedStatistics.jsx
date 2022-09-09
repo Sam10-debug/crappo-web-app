@@ -17,7 +17,7 @@ const DetailedStatistics = () => {
 				<div className="flex items-center">
 					<img src={upArrow} alt="up-arrow-icon" className="mr-1 " />
 					<div className=" mr-2">
-						<p className="text-[12px] text-white md:text-[16px]"><span className="green  text-[12px] md:text-[16px]">+7.3%</span>(+146$)</p>
+						<p className="text-[12px] flex flex-col md:flex-row text-white md:text-[16px]"><span className="green  text-[12px] md:text-[16px]">+7.3%</span>(+146$)</p>
 						<span className="volume text-[12px] md:text-[16px]">Trends</span>
 					</div>
 				</div>
@@ -34,7 +34,7 @@ const DetailedStatistics = () => {
 					<span className="text-[12px] md:text-[16px] volume">Low</span>
 				</div>
 				<div className="flex gap-x-2 items-center">
-					<img src={andriy} alt="andriy-image" className='w-[20px] h-[20px]' />
+					<img src={andriy} alt="andriy-image" className='w-[20px] h-[20px] mr-1' />
 					<div className="">
 						<h5 className="text-[12px] md:text-[16px] text-white font-semibold">Andriy Lenin</h5>
 						<h6 className="text-[10px] md:text-[16px] green">VERIFIED</h6>
@@ -45,17 +45,17 @@ const DetailedStatistics = () => {
 					<div className="flex items-center flex-col justify-center gap-4 md:flex-row w-full">
 						<div className=" flex items-center  gap-2 flex-2 mr-6">
 							<h4  className="font-bold text-white">USD/BTC</h4>
-							<img src={downArrow} alt="down-arrow-icon" />
+							<img src={downArrow} alt="down-arrow-icon ml-2" />
 						</div>
-						<div className="flex flex-2 mr-6 items-center">
+						<div className="flex flex-2 my-4 md:mr-6 items-center">
 							<div className="">
 								<p className="text-white">$6278.13</p>
 								<p className="text-[12px] volume">Last Price</p>
 							</div>
 							<span className='last text-[12px] ml-2'>+2.74%</span>
 						</div>
-						<div className="flex-2 mr-6 flex md:flex-col gap-2 md:gap-0">
-							<p className="text-white">38.25 BTC</p>
+						<div className="flex-2 md:mr-6 mb-4 flex md:flex-col gap-2 md:gap-0">
+							<p className="text-white mr-2 md:mr-0">38.25 BTC</p>
 							<p className="text-[12px] volume">Volume(24h)</p>
 						</div>
 						<div className="flex-1 flex justify-end">
