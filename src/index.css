@@ -108,5 +108,9 @@ input{
 .green{
 	color: #42FFFF;
 }
+#root{
+	overflow-x: hidden;
+}
+
 
 

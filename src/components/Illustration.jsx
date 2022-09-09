@@ -20,7 +20,7 @@ const Illustration = () => {
 				</div>
 				<h1 className="md:text-[64px] text-[40px] md:w-[558px] md:h-[228px] text-center md:text-left font-bold leading-[56px] md:leading-[76px] text-white">Fastest &amp; secure platform to invest in crypto</h1>
 				<p className=" mt-4 md:w-[435px] md:h-[56px] text-center md:text-left font-normal">Buy and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in tranactions.</p>
-				<button className="try flex w-[202px] mx-auto md:mx-0 h-[64px] justify-center items-center rounded-[32px] gap-6 mt-4 text-white">Try for FREE <img src={arrowRight} alt="right-arrow icon" /></button>
+				<button className="try flex w-[202px] mx-auto md:mx-0 h-[64px] justify-center items-center rounded-[32px] gap-6 mt-4 text-white">Try for FREE <img src={arrowRight} alt="right-arrow icon " className='ml-2 md:ml-0' /></button>
 			</div>
 			<div className="image flex-1 h-[585px]">
 				<img src={illustrationImage} alt="illustration-image w-full h-full" />
