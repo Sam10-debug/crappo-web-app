@@ -12,7 +12,7 @@ const Footer = () => {
 		AOS.init({duration: 2000})
 	})
 	return ( 
-		<footer className="footer pt-12 w-full" data-aos="fade-left">
+		<footer className="footer pt-12 w-full " data-aos="fade-left">
 			<div className="flex flex-col  md:flex-row md:justify-between">
 				<div className="flex justify-center items-center md:justify-start md:items-start">
 					<img src={logo} alt="logo" />
