@@ -34,7 +34,7 @@ const Footer = () => {
 					<li><a href="#">Interest</a></li>
 				</ul>
 				<div className="">
-					<h2 className="text-white font-bold text-[32px] leading-[150%] mb-4">We accept following payment systems</h2>
+					<h2 className="text-white font-bold text-[32px] leading-[150%] mb-4 text-center md:text-left">We accept following payment systems</h2>
 					<div className="flex">
 						<img src={visa} alt="visa-image" className="" />
 						<img src={master} alt="mastercard-image" className="mx-4" />
