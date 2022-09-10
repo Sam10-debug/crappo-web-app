@@ -6,6 +6,10 @@
 body{
 	font-family: 'Rubik', sans-serif;
 }
+.crypto:hover{
+	background-color: #2B076E;
+	color: white;
+}
 
 .header{
 	background-color: #0D0D2B;

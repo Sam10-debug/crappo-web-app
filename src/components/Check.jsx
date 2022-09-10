@@ -19,6 +19,10 @@ const Check = () => {
 		
 						<select name="" id="" className="border-2 w-full mt-8 rounded-lg h-[40px] md:w-1/4 md:mx-4">
 							<option value="TH/s">TH/s</option>
+							<option value="H/s">H/s</option>
+							<option value="KH/s">KH/s</option>
+							<option value="MH/s">MH/s</option>
+							<option value="GH/s">GH/s</option>
 						</select>
 					<button className="flex-1  mx-auto py-2  md:py-0 h-[48px] w-full try flex md:w-1/4 md:h-[64px] justify-center items-center rounded-[32px] gap-6 mt-4 text-white">Calculate</button>
 				</div>
