@@ -42,9 +42,9 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex justify-between py-12 gap-4">
+			<div className="flex flex-col md:flex-row justify-center items-center md:justify-between py-12 gap-4">
 				<div className="">
-					<p className='volume text-[12px] md:text-[16px]'>&copy;2021.CRAPPO.All rights reserved</p>
+					<p className='volume text-[16px]'>&copy;2021.CRAPPO.All rights reserved</p>
 				</div>
 			<div className="flex gap-2">
 				<svg className="w-[16px] h-[16px] md:w-[24px] md:h-[24px]" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
