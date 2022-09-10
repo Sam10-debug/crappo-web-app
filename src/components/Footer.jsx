@@ -12,7 +12,7 @@ const Footer = () => {
 		AOS.init({duration: 2000})
 	})
 	return ( 
-		<footer className="footer p-12" data-aos="fade-left">
+		<footer className="footer pt-12 w-full" data-aos="fade-left">
 			<div className="flex flex-col  md:flex-row md:justify-between">
 				<div className="flex justify-center items-center md:justify-start md:items-start">
 					<img src={logo} alt="logo" />
@@ -35,14 +35,14 @@ const Footer = () => {
 				</ul>
 				<div className="">
 					<h2 className="text-white font-bold text-[32px] leading-[150%] mb-4 text-center md:text-left">We accept following payment systems</h2>
-					<div className="flex">
+					<div className="flex justify-center">
 						<img src={visa} alt="visa-image" className="" />
 						<img src={master} alt="mastercard-image" className="mx-4" />
 						<img src={bitcoin} alt="bitcoin-image" className="" />
 					</div>
 				</div>
 			</div>
-			<div className="flex flex-col md:flex-row justify-center items-center md:justify-between py-12 gap-4">
+			<div className="flex flex-col md:flex-row justify-center items-center md:justify-between py-12 gap-4 ">
 				<div className="">
 					<p className='volume text-[16px]'>&copy;2021.CRAPPO.All rights reserved</p>
 				</div>
