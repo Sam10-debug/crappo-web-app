@@ -5,13 +5,15 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
 
-const NavBar = ({showNav,setShowNav}) => {
+
+const NavBar = ({setShowNav}) => {
 	useEffect(()=>{
 		AOS.init({duration: 2000})
 	})
 
 	const ShowNav=()=>{
 		setShowNav(true)
+		console.log(9)
 	}
 
 

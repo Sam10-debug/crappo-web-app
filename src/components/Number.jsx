@@ -6,10 +6,14 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
 
+
 const Number = () => {
 	useEffect(()=>{
 		AOS.init({duration: 2000})
 	})
+
+
+	//   console.log(showNav)
 	return ( 
 		<section className=" md:h-[92px] flex flex-col md:flex-row mx-auto justify-between items-center" data-aos="zoom-in">
 			<div className="md:w-[334px] h-[92px] flex items-end">
